@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Person Details</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <style>
+    .person-card {
+      display: flex;
+      margin-bottom: 20px; /* Adjust margin between cards as needed */
+      border: 1px solid #ccc; /* Add border */
+      padding: 20px; /* Add padding */
+      border-radius: 8px; /* Add border radius for rounded corners */
+    }
+
+    .person-card img {
+      width: 100px; /* Adjust image width as needed */
+      height: 100px; /* Adjust image height as needed */
+      border-radius: 50%; /* Ensure circular images */
+      margin-right: 20px; /* Adjust margin between image and details */
+    }
+
+    .person-details {
+      flex: 1; /* Take up remaining space */
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+</head>
+<body>
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center">
+              <img src="/assets/logo.png" alt='Logo' class='w-16 h-16 mr-2 rounded-full shadow-lg'/>
+              <div class="text-white text-3xl font-bold">Connect</div>
+            </div>
+            <ul class="flex space-x-4">
+              <li>
+                <a href="#" class="text-white hover:underline">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-white hover:underline">About</a>
+              </li>
+              <li>
+                <a href="#" class="text-white hover:underline">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <div class="person-card bg-gray-300">
+    <img src="/Assets/project pic.jpg" alt="John Doe">
+    <div class="person-details">
+      <h2>Name: John Doe</h2>
+      <p>Age: 30<br>
+        Company: XYZ<br>
+        Role: Frontend Developer
+      </p>
+      <!-- Add other fields as needed -->
+    </div>
+    <div class="flex items-center">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Connect</button>
+
+    </div>
+
+    </div>
+  </div>
+
+  <div class="person-card bg-gray-300">
+    <img src="/Assets/project pic.jpg" alt="Jane Smith">
+    <div class="person-details">
+      <h2>Name: Jane Smith</h2>
+      <p>Age: 25<br>
+        Company: XYZ<br>
+        Role: Software Developer
+      </p>
+      <!-- Add other fields as needed -->
+    </div>
+
+      <div class="flex items-center">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Connect</button>
+    </div>
+  </div>
+
+  <div class="person-card bg-gray-300">
+    <img src="/Assets/project pic.jpg" alt="John Doe">
+    <div class="person-details">
+      <h2>Name: John Doe</h2>
+      <p>Age: 30<br>
+        Company: XYZ<br>
+        Role: Frontend Developer
+      </p>
+      <!-- Add other fields as needed -->
+    </div>
+    <div class="flex items-center">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Connect</button>
+
+    </div>
+
+    </div>
+  </div>
+  <!-- Add more person cards as needed -->
+</body>
+</html>

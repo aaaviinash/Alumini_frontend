@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+      .person-card {
+      display: flex;
+      margin-bottom: 20px; /* Adjust margin between cards as needed */
+      border: 1px solid #ccc; /* Add border */
+      padding: 20px; /* Add padding */
+      border-radius: 8px; /* Add border radius for rounded corners */
+    }
+
+    .person-card img {
+      width: 100px; /* Adjust image width as needed */
+      height: 100px; /* Adjust image height as needed */
+      border-radius: 50%; /* Ensure circular images */
+      margin-right: 500px; /* Adjust margin between image and details */
+    }
+
+    .slider {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+    </style>
+
+
+</head>
+<body>
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center">
+              <img src="/assets/logo.png" alt='Logo' class='w-16 h-16 mr-2 rounded-full shadow-lg'/>
+              <div class="text-white text-3xl font-bold">Connect</div>
+            </div>
+            <ul class="flex space-x-4">
+              <li>
+                <a href="#" class="text-white hover:underline">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-white hover:underline">About</a>
+              </li>
+              <li>
+                <a href="#" class="text-white hover:underline">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="slider">
+        <img src="./Assets/Gautam-Buddha-University-campus-2.jpg" alt="Image 1">
+        <img src="./Assets/gbu 2.jpg" alt="Image 2">
+      </div>
+      <script src="script.js"></script>
+
+      <div class="container mx-auto mt-8">
+        <h2 class="text-3xl font-semibold mb-4">Alumni Messages</h2>
+
+        <div class="person-card bg-gray-300">
+          <img src="/Assets/project pic.jpg" alt="John Doe">
+          <div class="person-details">
+            <img src="/Assets/project pic.jpg" alt="John Doe">
+          </div>
+          <img src="/Assets/project pic.jpg" alt="John Doe">
+
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-black border rounded p-4">
+                <p class="text-white">Loved it!.</p>
+                <p class="text-white mt-2">- John Doe</p>
+            </div>
+            <div class="bg-black border rounded p-4">
+                <p class="text-white">It's great to be connected to juniors.</p>
+                <p class="text-white mt-2">- Jane Smith</p>
+            </div>
+            <div class="bg-black border rounded p-4">
+                <p class="text-white">Great work by the team.</p>
+                <p class="text-white mt-2">- Michael Johnson</p>
+            </div>
+        </div>
+    
+    
+
+</body>
+</html>

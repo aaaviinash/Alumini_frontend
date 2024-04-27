@@ -1,0 +1,178 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .bg-gray-800 {
+    background-color: #2d2d2d;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .space-x-4 > * + * {
+    margin-left: 1rem;
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hover\:underline:hover {
+    text-decoration: underline;
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .w-16 {
+    width: 4rem;
+  }
+  
+  .h-16 {
+    height: 4rem;
+  }
+
+  .bg-gray-800 {
+    margin: 0;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  /* styles.css */
+
+.max-w-md {
+  max-width: 28rem; /* Equivalent to max-w-md class */
+}
+
+.mx-auto {
+  margin-left: auto; /* Equivalent to mx-auto class */
+  margin-right: auto;
+}
+
+.mt-2 {
+  margin-top: 0.5rem; /* Equivalent to mt-2 class */
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem; /* Equivalent to mb-2 class */
+}
+
+.p-6 {
+  padding: 1.5rem; /* Equivalent to p-6 class */
+}
+
+.bg-gray-800 {
+  background-color: #2d2d2d; /* Equivalent to bg-gray-800 class */
+}
+
+.rounded {
+  border-radius: 0.375rem; /* Equivalent to rounded class */
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-md class */
+}
+
+.text-3xl {
+  font-size: 1.875rem; /* Equivalent to text-3xl class */
+}
+
+.font-semibold {
+  font-weight: 600; /* Equivalent to font-semibold class */
+}
+
+.mb-4 {
+  margin-bottom: 1rem; /* Equivalent to mb-4 class */
+}
+
+.text-white {
+  color: #fff; /* Equivalent to text-white class */
+}
+
+.border {
+  border-width: 1px; /* Equivalent to border class */
+}
+
+.border-black {
+  border-color: #000; /* Equivalent to border-black class */
+}
+
+.rounded-md {
+  border-radius: 0.375rem; /* Equivalent to rounded-md class */
+}
+
+.focus\:outline-none:focus {
+  outline: none; /* Equivalent to focus:outline-none class */
+}
+
+.focus\:border-blue-500:focus {
+  border-color: #4299e1; /* Equivalent to focus:border-blue-500 class */
+}
+
+.bg-blue-500 {
+  background-color: #4299e1; /* Equivalent to bg-blue-500 class */
+}
+
+.hover\:bg-blue-600:hover {
+  background-color: #3182ce; /* Equivalent to hover:bg-blue-600 class */
+}
+
+.hover\:underline:hover {
+  text-decoration: underline; /* Equivalent to hover:underline class */
+}
+
+.text-blue-500 {
+  color: #4299e1; /* Equivalent to text-blue-500 class */
+}
+
+.py-2 {
+  padding-top: 0.5rem; /* Equivalent to py-2 class */
+  padding-bottom: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem; /* Equivalent to px-4 class */
+  padding-right: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem; /* Equivalent to text-sm class */
+}
+
+.mt-4 {
+  margin-top: 1rem; /* Equivalent to mt-4 class */
+}
+
+
+ 
+  
+  
